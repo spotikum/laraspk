@@ -8,4 +8,6 @@ use Illuminate\Database\Eloquent\Model;
 class siswa extends Model
 {
     use HasFactory;
+
+    protected $fillable = ['nomor_induk', 'nama', 'fisika', 'kimia', 'matematika', 'biologi', 'geografi', 'sosiologi', 'antropologi', 'ekonomi', 'jurusan'];
 }
