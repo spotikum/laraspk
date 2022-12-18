@@ -15,7 +15,7 @@ use App\Http\Controllers\SiswaController;
 */
 
 Route::get('/', function () {
-    return view('dashboard');
+    return redirect('/siswa');
 });
 
 // Siswa
