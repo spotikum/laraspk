@@ -15,38 +15,38 @@
   <form class="row g-3">
     <div class="col-md-6">
       <label for="fisika" class="form-label">Fisika</label>
-      <input type="fisika" class="form-control" id="fisika">
+      <input type="text" class="form-control" id="fisika">
     </div>
     <div class="col-md-6">
       <label for="kimia" class="form-label">Kimia</label>
-      <input type="kimia" class="form-control" id="kimia">
+      <input type="text" class="form-control" id="kimia">
     </div>
     <div class="col-md-6">
       <label for="matematika" class="form-label">Matematika</label>
-      <input type="matematika" class="form-control" id="matematika">
+      <input type="text" class="form-control" id="matematika">
     </div>
     <div class="col-md-6">
       <label for="biologi" class="form-label">Biologi</label>
-      <input type="biologi" class="form-control" id="biologi">
+      <input type="text" class="form-control" id="biologi">
     </div>
   </form>
 
   <form class="row g-3">
     <div class="col-md-6">
       <label for="geografi" class="form-label">Geografi</label>
-      <input type="geografi" class="form-control" id="geografi">
+      <input type="text" class="form-control" id="geografi">
     </div>
     <div class="col-md-6">
       <label for="sosiologi" class="form-label">Sosiologi</label>
-      <input type="sosiologi" class="form-control" id="sosiologi">
+      <input type="text" class="form-control" id="sosiologi">
     </div>
     <div class="col-md-6">
       <label for="antropologi" class="form-label">Antropologi</label>
-      <input type="antropologi" class="form-control" id="antropologi">
+      <input type="text" class="form-control" id="antropologi">
     </div>
     <div class="col-md-6">
       <label for="ekonomi" class="form-label">Ekonomi</label>
-      <input type="ekonomi" class="form-control" id="ekonomi">
+      <input type="text" class="form-control" id="ekonomi">
     </div>
   </form>
   
@@ -64,12 +64,13 @@
               IPS
           </label>
       </div>
-  </div>
+    </div>
+    
+    <button type="submit" class="btn btn-primary">Submit aku dong</button>
+
   </div>
 </div>
 
-
-{{-- <h1>Hello, world!</h1> --}}
 
 
 @endsection
