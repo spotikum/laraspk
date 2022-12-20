@@ -1,7 +1,7 @@
 @extends('layout.app')
 
 @section('content')
-<form method="POST" action="/">
+<form method="POST" action="/siswa">
   @method('post')
   @csrf
   <div class="container col-md-3 mt-5">
