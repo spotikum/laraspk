@@ -6,12 +6,12 @@
   @csrf
   <div class="container col-md-3 mt-5">
     <div class="mb-3">
-      <label for="nomor-induk-siswa" class="form-label">Nomor Induk Siswa</label>
-      <input type="text" class="form-control" id="nomor-induk-siswa" placeholder="Nomor Induk Siswa">
+      <label for="nomor_induk" class="form-label">Nomor Induk Siswa</label>
+      <input type="text" class="form-control" id="nomor_induk" placeholder="Nomor Induk Siswa">
     </div>
     <div class="mb-3">
-      <label for="nama-siswa" class="form-label">Nama Siswa</label>
-      <input type="text" class="form-control" id="nama-siswa" placeholder="Nama Siswa">
+      <label for="nama" class="form-label">Nama Siswa</label>
+      <input type="text" class="form-control" id="nama" placeholder="Nama Siswa">
     </div>
     <div class="row">
       <label for="fisika" class="form-label">IPA</label>
@@ -41,21 +41,21 @@
         <input type="text" class="form-control" id="ekonomi" placeholder="Ekonomi">
       </div>
       
-      <div class="mb-3">
+      {{-- <div class="mb-3">
         <label for="alamat" class="form-label mt-3">Pilih Jurusuan</label>
         <div class="form-check">
-            <input class="form-check-input" type="radio" value="1" name="jurusan[]" id="flexCheckDefault1">
+            <input class="form-check-input" type="radio" value="1" name="jurusan" id="flexCheckDefault1">
             <label class="form-check-label" for="flexCheckDefault1">
                 IPA
             </label>
         </div>
         <div class="form-check">
-            <input class="form-check-input" type="radio" value="2" name="jurusan[]" id="flexCheckDefault2">
+            <input class="form-check-input" type="radio" value="2" name="jurusan" id="flexCheckDefault2">
             <label class="form-check-label" for="flexCheckDefault2">
                 IPS
             </label>
         </div>
-      </div>
+      </div> --}}
     </div>
     <button type="submit" class="btn btn-primary">Submit aku dong</button>
   </div>

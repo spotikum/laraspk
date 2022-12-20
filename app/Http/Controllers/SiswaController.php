@@ -14,6 +14,7 @@ class SiswaController extends Controller
 
     public function create(Request $request)
     {
+        dd($request->all());
         Siswa::create($request->all());
         return back();
     }
