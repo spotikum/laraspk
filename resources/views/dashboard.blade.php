@@ -14,42 +14,35 @@
       <input type="text" class="form-control" id="nama-siswa" placeholder="Nama Siswa">
     </div>
     <div class="row">
-
-      <div class="col-md-6">
-        <label for="fisika" class="form-label">Fisika</label>
-        <input type="text" class="form-control" id="fisika">
+      <label for="fisika" class="form-label">IPA</label>
+      <div class="col-md-6 mb-3">
+        <input type="text" class="form-control" id="fisika" placeholder="Fisika">
       </div>
       <div class="col-md-6">
-        <label for="kimia" class="form-label">Kimia</label>
-        <input type="text" class="form-control" id="kimia">
+        <input type="text" class="form-control" id="kimia" placeholder="Kimia">
       </div>
       <div class="col-md-6">
-        <label for="matematika" class="form-label">Matematika</label>
-        <input type="text" class="form-control" id="matematika">
+        <input type="text" class="form-control" id="matematika" placeholder="Matematika">
       </div>
       <div class="col-md-6">
-        <label for="biologi" class="form-label">Biologi</label>
-        <input type="text" class="form-control" id="biologi">
+        <input type="text" class="form-control" id="biologi" placeholder="Biologi">
+      </div>
+      <label for="geografi" class="form-label mt-3">IPS</label>
+      <div class="col-md-6 mb-3">
+        <input type="text" class="form-control" id="geografi" placeholder="Geografi">
       </div>
       <div class="col-md-6">
-        <label for="geografi" class="form-label">Geografi</label>
-        <input type="text" class="form-control" id="geografi">
+        <input type="text" class="form-control" id="sosiologi" placeholder="Sosiologi">
       </div>
       <div class="col-md-6">
-        <label for="sosiologi" class="form-label">Sosiologi</label>
-        <input type="text" class="form-control" id="sosiologi">
+        <input type="text" class="form-control" id="antropologi" placeholder="Antropologi">
       </div>
       <div class="col-md-6">
-        <label for="antropologi" class="form-label">Antropologi</label>
-        <input type="text" class="form-control" id="antropologi">
-      </div>
-      <div class="col-md-6">
-        <label for="ekonomi" class="form-label">Ekonomi</label>
-        <input type="text" class="form-control" id="ekonomi">
+        <input type="text" class="form-control" id="ekonomi" placeholder="Ekonomi">
       </div>
       
       <div class="mb-3">
-        <label for="alamat" class="form-label">Pilih Jurusuan</label>
+        <label for="alamat" class="form-label mt-3">Pilih Jurusuan</label>
         <div class="form-check">
             <input class="form-check-input" type="radio" value="1" name="jurusan[]" id="flexCheckDefault1">
             <label class="form-check-label" for="flexCheckDefault1">
