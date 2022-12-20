@@ -1,18 +1,18 @@
 @extends('layout.app')
 
 @section('content')
-
-<div class="container col-md-3 mt-5">
-  <div class="mb-3">
-    <label for="nomor-induk-siswa" class="form-label">Nomor Induk Siswa</label>
-    <input type="text" class="form-control" id="nomor-induk-siswa" placeholder="Nomor Induk Siswa">
-  </div>
-  <div class="mb-3">
-    <label for="nama-siswa" class="form-label">Nama Siswa</label>
-    <input type="text" class="form-control" id="nama-siswa" placeholder="Nama Siswa">
-  </div>
-
-  <form class="row g-3">
+<form method="POST" action="/buku/{{ $buku->id }}">
+  @method('post')
+  @csrf
+  <div class="container col-md-3 mt-5">
+    <div class="mb-3">
+      <label for="nomor-induk-siswa" class="form-label">Nomor Induk Siswa</label>
+      <input type="text" class="form-control" id="nomor-induk-siswa" placeholder="Nomor Induk Siswa">
+    </div>
+    <div class="mb-3">
+      <label for="nama-siswa" class="form-label">Nama Siswa</label>
+      <input type="text" class="form-control" id="nama-siswa" placeholder="Nama Siswa">
+    </div>
     <div class="col-md-6">
       <label for="fisika" class="form-label">Fisika</label>
       <input type="text" class="form-control" id="fisika">
@@ -29,9 +29,6 @@
       <label for="biologi" class="form-label">Biologi</label>
       <input type="text" class="form-control" id="biologi">
     </div>
-  </form>
-
-  <form class="row g-3">
     <div class="col-md-6">
       <label for="geografi" class="form-label">Geografi</label>
       <input type="text" class="form-control" id="geografi">
@@ -48,8 +45,7 @@
       <label for="ekonomi" class="form-label">Ekonomi</label>
       <input type="text" class="form-control" id="ekonomi">
     </div>
-  </form>
-  
+    
     <div class="mb-3">
       <label for="alamat" class="form-label">Pilih Jurusuan</label>
       <div class="form-check">
@@ -65,10 +61,10 @@
           </label>
       </div>
     </div>
-    
+      
     <button type="submit" class="btn btn-primary">Submit aku dong</button>
-
   </div>
+  </form>
 </div>
 
 
