@@ -15,7 +15,7 @@
     </div>
     <div class="row">
       <label for="fisika" class="form-label">IPA</label>
-      <div class="col-md-6 mb-3">
+      <div class="col-md-6 mb-3"> 
         <input type="text" class="form-control" id="fisika" placeholder="Fisika">
       </div>
       <div class="col-md-6">
