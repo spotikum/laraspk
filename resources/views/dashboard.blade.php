@@ -41,7 +41,7 @@
         <input type="text" class="form-control" id="ekonomi" placeholder="Ekonomi">
       </div>
       
-      {{-- <div class="mb-3">
+      <div class="mb-3">
         <label for="alamat" class="form-label mt-3">Pilih Jurusuan</label>
         <div class="form-check">
             <input class="form-check-input" type="radio" value="1" name="jurusan" id="flexCheckDefault1">
@@ -55,7 +55,7 @@
                 IPS
             </label>
         </div>
-      </div> --}}
+      </div>
     </div>
     <button type="submit" class="btn btn-primary">Submit aku dong</button>
   </div>
@@ -65,3 +65,5 @@
 
 
 @endsection
+
+Ngetes doang
